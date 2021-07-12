@@ -22,7 +22,7 @@
     }
   ],
   "paths": {
-    "/o2o/webhook/{webhookId}/{action}": {
+    "/o2o/action/{webhookId}/{action}": {
       "post": {
         "tags": [
           "Webhook"
@@ -45,7 +45,7 @@
             "in": "path",
             "description": "Unique assigned webhook Id.",
             "required": true,
-            "example": "WB12769TT54GWQT1",
+            "example": "vsi12769TT54GWQT1",
             "allowEmptyValue": false,
             "schema": {
               "type": "string"
