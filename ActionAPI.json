@@ -22,7 +22,7 @@
     }
   ],
   "paths": {
-    "/o2o/webhook/{webhookId}/{actionId}": {
+    "/o2o/webhook/{webhookId}/{action}": {
       "post": {
         "tags": [
           "Webhook"
@@ -43,7 +43,7 @@
           {
             "name": "webhookId",
             "in": "path",
-            "description": "Unique assigned webhook Id.",
+            "description": "WB12769TT54GWQT1",
             "required": true,
             "allowEmptyValue": false,
             "schema": {
@@ -51,9 +51,9 @@
             }
           },
           {
-            "name": "actionId",
+            "name": "action",
             "in": "path",
-            "description": "unique identifier for every action.",
+            "description": "book",
             "required": true,
             "allowEmptyValue": false,
             "schema": {
