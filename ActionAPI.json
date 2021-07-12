@@ -43,8 +43,9 @@
           {
             "name": "webhookId",
             "in": "path",
-            "description": "WB12769TT54GWQT1",
+            "description": "Unique assigned webhook Id.",
             "required": true,
+            "example": "WB12769TT54GWQT1",
             "allowEmptyValue": false,
             "schema": {
               "type": "string"
@@ -53,8 +54,9 @@
           {
             "name": "action",
             "in": "path",
-            "description": "book",
+            "description": "unique identifier for every action.",
             "required": true,
+            "example": "book",
             "allowEmptyValue": false,
             "schema": {
               "type": "string"
