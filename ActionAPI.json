@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "MapmyIndia Explore APIs",
+    "title": "MapmyIndia Action APIs",
     "description": "<h2>Security Type</h2> <p>This APIs follow OAuth2 based security. <b>To know more on how to create your authorization tokens, please click the `Authorize` button below. More details available <a href=https://www.mapmyindia.com/api/advanced-maps/doc/authentication-api.php>here</a></b> </br><li><a href=https://www.mapmyindia.com/api/login>Login/Sing Up</a> for API key and other access.<p></br>",
     "termsOfService": "https://www.mapmyindia.com/api/terms-&-conditions",
     "contact": {
