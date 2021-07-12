@@ -22,7 +22,7 @@
     }
   ],
   "paths": {
-    "/o2o/{webhookId}/{actionId}": {
+    "/o2o/webhook/{webhookId}/{actionId}": {
       "post": {
         "tags": [
           "Webhook"
