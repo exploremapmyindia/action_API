@@ -126,7 +126,7 @@
           },
           "deviceId": {
             "type": "string",
-            "description": "Devide Id",
+            "description": "DevideId",
             "example": "khdsf7078"
           },
           "timestamp": {
@@ -167,11 +167,11 @@
             "items": {
               "type": "object",
               "properties": {
-                "responseMessage": {
+                "responseTitle": {
                   "type": "string",
                   "example": "Booking Successful"
                 },
-                "responseDescription": {
+                "responseDesc": {
                   "type": "string",
                   "example": "Your parking request has been booked acknowledged."
                 }
@@ -192,11 +192,11 @@
             "items": {
               "type": "object",
               "properties": {
-                "responseMessage": {
+                "responseTitle": {
                   "type": "string",
                   "example": "Retry Booking"
                 },
-                "responseDescription": {
+                "responseDesc": {
                   "type": "string",
                   "example": "Booking not successful. Kindly retry."
                 }
@@ -217,11 +217,11 @@
             "items": {
               "type": "object",
               "properties": {
-                "responseMessage": {
+                "responseTitle": {
                   "type": "string",
                   "example": "Booking Slot not available"
                 },
-                "responseDescription": {
+                "responseDesc": {
                   "type": "string",
                   "example": "Unable to reach services. Please try again after sometime."
                 }
@@ -242,11 +242,11 @@
             "items": {
               "type": "object",
               "properties": {
-                "responseMessage": {
+                "responseTitle": {
                   "type": "string",
                   "example": "Internet Connection"
                 },
-                "responseDescription": {
+                "responseDesc": {
                   "type": "string",
                   "example": "Unable to reach services. Please try again after sometime."
                 }
