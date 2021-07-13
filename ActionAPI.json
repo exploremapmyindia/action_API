@@ -126,7 +126,7 @@
           },
           "deviceId": {
             "type": "string",
-            "description": "DevideId",
+            "description": "DeviceId",
             "example": "khdsf7078"
           },
           "timestamp": {
