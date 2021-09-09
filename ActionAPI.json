@@ -134,7 +134,7 @@ components:
             properties:
               reasonPhrase:
                 type: string
-                example: Retry Booking
+                example: Retry Booking / Booking Slot not available
               displayMessage:
                 type: string
                 example: "Booking not successful. Kindly retry." / "Low balance! Please recharge your MG wallet from My MG app." / "Unable to reach services. Please try again after sometime." / "Your vehicle is not linked with MG wallet. Please contact your dealer." / "Invalid Input, Device ID is not mapped."
