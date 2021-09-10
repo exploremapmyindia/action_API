@@ -67,6 +67,12 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Internet-Connection'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Bad-Request'
 components:
   schemas:
     POST-webhook-Request:
@@ -83,7 +89,7 @@ components:
           example: N0GX2M
         deviceId:
           type: string
-          description: Devide Id
+          description: Device Id
           example: khdsf7078
         timestamp:
           type: integer
@@ -134,10 +140,10 @@ components:
             properties:
               reasonPhrase:
                 type: string
-                example: Retry Booking / Booking Slot not available
+                example: Retry Booking / Booking Slot not available 
               displayMessage:
                 type: string
-                example: Booking not successful. Kindly retry. / Booking not successful. Low balance! Please recharge your MG wallet from My MG app. / Unable to reach services. Please try again after sometime. / Your vehicle is not linked with MG wallet. Please contact your dealer. / Your vehicle is not registered with MG. Please contact your dealer.
+                example: Booking not successful. Kindly retry. / Booking not successful. Low balance! Please recharge your MG wallet from My MG app. / Unable to reach services. Please try again after sometime. / Your vehicle is not linked with MG wallet. Please contact your dealer. / Invalid Input, Device ID is not mapped.
     Internet-Connection:
       type: object
       properties:
@@ -155,6 +161,23 @@ components:
               displayMessage:
                 type: string
                 example: Unable to reach services. Please try again after sometime.
+    Bad-Request:
+      type: object
+      properties:
+        responseCode:
+          type: integer
+          example: 400
+        responseMsg:
+          type: array
+          items:
+            type: object
+            properties:
+              reasonPhrase:
+                type: string
+                example: Bad Request
+              displayMessage:
+                type: string
+                example: Less/more than 6 character length of *eloc is not allowed and expected data type STRING. / null value for *deviceId is not allowed and  expected data type STRING.
   securitySchemes:
     mmi_auth:
       type: oauth2
