@@ -73,7 +73,7 @@ components:
       type: object
       required:
         - eloc
-        - subjectId
+        - deviceId
         - timestamp
         - currentLocation
       properties:
@@ -81,7 +81,7 @@ components:
           type: string
           description: Unique Identifier
           example: N0GX2M
-        subjectId:
+        deviceId:
           type: string
           description: Devide Id
           example: khdsf7078
